@@ -1,8 +1,8 @@
-# WeatherPy
+# WeatherPy - Analyze Worldwide weather with OpenWeatherMap API  
 
 ## Analysis
-*- The highest temperature (100F) happens at latitude 0, it's a beautiful curve. the farer from latitude 0, the lower of max tempture.*
-*- There is no significant relationship between latitude and cloudiness.*
+*- The highest temperature (100F) happens at latitude 0, it's a beautiful curve. the farer from latitude 0, the lower of max tempture.*</br>
+*- There is no significant relationship between latitude and cloudiness.*</br>
 *- Even though we see some cities with lower humidity and higher wind speed between latitude 0~40, we still can find a tred to show a significant relationship.*
 
 
