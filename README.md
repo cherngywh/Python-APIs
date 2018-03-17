@@ -1,10 +1,9 @@
-
 # WeatherPy
 
 ## Analysis
-- The highest temperature (100F) happens at latitude 0, it's a beautiful curve. the farer from latitude 0, the lower of max tempture.
-- There is no significant relationship between latitude and cloudiness.
-- Even though we see some cities with lower humidity and higher wind speed between latitude 0~40, we still can find a tred to show a significant relationship.
+*- The highest temperature (100F) happens at latitude 0, it's a beautiful curve. the farer from latitude 0, the lower of max tempture.*
+*- There is no significant relationship between latitude and cloudiness.*
+*- Even though we see some cities with lower humidity and higher wind speed between latitude 0~40, we still can find a tred to show a significant relationship.*
 
 
 ```python
@@ -20,7 +19,7 @@ from matplotlib.dates import DateFormatter
 from citipy import citipy
 ```
 
-# Generate Cities List
+## Generate Cities List
 
 
 ```python
@@ -268,7 +267,7 @@ Weather_df.head()
 data_date = time.strftime('(%m/%d/%y)', time.localtime(Weather_df['Date'][0]))
 ```
 
-# Latitude vs Temperature Plot
+## Latitude vs Temperature Plot
 
 
 ```python
@@ -292,7 +291,7 @@ plt.show()
 ![png](output_12_0.png)
 
 
-# Latitude vs. Humidity Plot
+## Latitude vs. Humidity Plot
 
 
 ```python
@@ -316,7 +315,7 @@ plt.show()
 ![png](output_14_0.png)
 
 
-# Latitude vs. Cloudiness Plot
+## Latitude vs. Cloudiness Plot
 
 
 ```python
@@ -340,7 +339,7 @@ plt.show()
 ![png](output_16_0.png)
 
 
-# Latitude vs. Wind Speed Plot
+## Latitude vs. Wind Speed Plot
 
 
 ```python
